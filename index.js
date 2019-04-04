@@ -1,15 +1,14 @@
 
-const menu = document.querySelector(' .weird-2 ');
-const menuButton = document.querySelector(' #burgerMenu ');
-menuButton.addEventListener('click', loginInn);
-; //agrega el istener si es true
-menuButton.removeEventListener('click', loginInn);
+const menu =  document.querySelector('.weirdTwo');
+const menuButton =  document.querySelector('#burgerMenu');
 
+menuButton.addEventListener('click', loginInn);
 
 function loginInn(){
-if(loginIn.classList.contains('is-active')) {
-  loginIn.classList.remove('is-active');
+  if(menu.classList.contains('is-active')) {
+
+      menu.classList.remove('is-active');
 } else{
-  loginIn.classList.add('is-active');
+      menu.classList.add('is-active');
 }
 }

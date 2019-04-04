@@ -93,7 +93,6 @@ figure{
   color: white;
 }
 
-
 /*  seccion dos video*/
 .container-2{
   /* height: 100%; */
@@ -176,12 +175,12 @@ overflow: hidden;
   color: black;
 }
 
-.weird-2 {
+.weirdTwo {
   margin: 0px;
   display: flex;
   padding-right: 100px;
 }
-.weird-2 input{
+.weirdTwo input{
   margin: 0px;
   margin-right: 5px;
   width: 70px;
@@ -247,7 +246,6 @@ overflow: hidden;
 }
 
 @media screen and (max-width:800px) {
-
  .burger-button{
    display: block;
  }
@@ -266,7 +264,8 @@ overflow: hidden;
   }
   .coments input{
     padding: 10px;
-    width: 250px;}
+    width: 250px;
+  }
 
     #p{
       display: none;
@@ -277,34 +276,31 @@ overflow: hidden;
       border-radius: 50%;
       padding-bottom: 5px
     }
-    .weird-2{
+    .weirdTwo{
         position: fixed;
         background: rgba(0,0,0,0.5);
         z-index: 3;
         top: 0;
-        right: -100vh;/*esconderlo*/
+        right: -1000px;/*esconderlo*/
         width: 200px;
         bottom: 1;
         display: block;
         padding: 10px;
-
     }
-    .weird-2.is-active{
+    .weirdTwo.is-active{
       right: 0;
-}
+    }
 }
 
-@media screen and (max-width:691px) {
+@media screen and (max-width:669px){
   .container{
     margin: 0px;
     overflow: hidden;
     display: grid;
     grid-template-columns:  35% 65%;
-    border: 1px solid red;
   }
   .nav-board {
     margin-left: 0px;
-    background-color: blue;
   }
 
   #p{
@@ -325,23 +321,16 @@ overflow: hidden;
     background-color: white;
     width: 100%;
   }
-  .title{
-    /* height: 15%; */
-  }
-  .video{
-    /* height: 45%; */
-    position: relative;
-  }
+
   .name{
-    border: 1px solid red;
     margin:0px;
     padding-top: 10px;
     padding-bottom: 5px;
   }
   .container-3{
+
     height: 40%;
     padding-top:10px;
     display:block;
   }
-
 }
