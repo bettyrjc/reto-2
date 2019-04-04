@@ -334,8 +334,17 @@ overflow: hidden;
     padding-top:10px;
     display:block;
   }
+  .icon-play-outline {
+
+    font-size: 80px;
+    padding-left: 40%;
+    padding-top: 110px;
+}
 }
 @media screen and (max-width:455px){
+  .icon-play-outline {
+    padding-left: 30%;
+}
   .title {
 
     font-size: 15px;
